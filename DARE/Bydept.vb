@@ -1,6 +1,6 @@
 Imports System.Data.SqlClient
 Public Class bydept
-    Dim constr As String = "server=(local);uid=sa;pwd=sa;database=BEARS"
+    Dim constr As String = "" 'db-source here
     Dim con As New SqlConnection(constr)
     Dim adp As New SqlDataAdapter
     Dim reader As SqlDataReader
