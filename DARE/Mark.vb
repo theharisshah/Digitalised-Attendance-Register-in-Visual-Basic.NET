@@ -1,7 +1,7 @@
 Imports System.Data.SqlClient
 Public Class Mark
-    Dim constr As String = "server=(local);uid=sa;pwd=sa;database=BEARS"
-    Dim con As New SqlConnection(constr)
+    Dim str As String = "" 'enter db-source here!
+    Dim con As New SqlConnection(str)
     Dim adp As New SqlDataAdapter
     Dim reader As SqlDataReader
     Dim dset As New DataSet
