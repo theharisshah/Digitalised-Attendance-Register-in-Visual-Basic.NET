@@ -1,6 +1,6 @@
 Imports System.Data.SqlClient
 Public Class deletemembers
-    Dim constr As String = "Data Source=TAMSEEL-PC;Initial Catalog=DARE;Integrated Security=True"
+    Dim constr As String = "" 'enter db-source here
     Dim con As New SqlConnection(constr)
     Dim adp As New SqlDataAdapter
     Dim reader As SqlDataReader
